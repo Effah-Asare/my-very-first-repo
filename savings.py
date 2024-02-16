@@ -7,5 +7,5 @@ while amount_saved <= 100:
         print(f"Your earnings for today is not sufficient. We were able to save {amount_saved} for now. However, Let's pause on savings for now")
         break
     amount_saved += amount_to_save
-print("We have managed to save up to {amount_saved}")
+print(f"We have managed to save up to {amount_saved}")
 
